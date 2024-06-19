@@ -1,4 +1,3 @@
-title = 'ATX Kompüter qida blokundan stolüstü qida blokunun hazırlanması'
 ---
 author: ["Orxan Əmiraslan"]
 title: 'ATX Kompüter qida blokundan stolüstü qida blokunun hazırlanması'
