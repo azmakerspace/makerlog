@@ -1,8 +1,17 @@
-+++
 title = 'ATX Kompüter qida blokundan stolüstü qida blokunun hazırlanması'
-date = 2014-09-19T18:00:00+02:00
-draft = true
-+++
+---
+author: ["Orxan Əmiraslan"]
+title: 'ATX Kompüter qida blokundan stolüstü qida blokunun hazırlanması'
+date: 2014-09-19
+description: "ATX qida lokunda stolüstü qida blokunu hazırlanması."
+summary: "Bu proyektdə kompüter qida blokundan istifadə edərək  +12, +5, +3.3, -5 və -12 V çıxış gərginlikləri olan stolüstü qida bloku hazırlayacam."
+tags: ["atx", "hackin", "qida-bloku", "elektronika"]
+categories: ["hacking", "lab"]
+series: ["Lab alətləri"]
+ShowToc: true
+TocOpen: true
+draft : true
+---
 
 # Giriş
 

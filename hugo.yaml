@@ -1,6 +1,6 @@
 baseURL: https://blog.makerspace.az/
 languageCode: en-Us
-title: MakerLog Azərbaycanın STEAM & Elektronika Bloqu
+title: MakerLog {STEAM & Elektronika Bloqu}
 theme: PaperMod
 
 copyright: "© [Makerspace Azərbaycan MMC](https://makerspace.az/)"
@@ -10,22 +10,40 @@ params:
   contact:
     email: info@makerspace.az
     phone: +994 55 5949014
-  subtitle: Makerspace Azerbaijan
+  subtitle: Makerspace Azerbaijan LLC
+
+
+
+# hugo new --kind post /posts/nr-name.md
+
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
 
 menu:
       main:
+        - name: Ana səhifə
+          url: #
+          weight: 5
         - name: Arxiv
           url: archives
           weight: 5
         - name: Axtarış
           url: search/
-          weight: 10
+          weight: 5
         - name: Teqlər
           url: tags/
-          weight: 10
+          weight: 5
         - name: Makerspace.az
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
-
+          url: https://makerspace.az/
+      
 
 outputs:
   home:
@@ -35,9 +53,13 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Theme PaperMod
+  title: MakerLog
+  description: "{STEAM & Elektronika Bloqu}"
+  keywords: [Makerspace, Azərbaycan, Elektronika, STEAM, STEM]
+  author: Orxan Əmiraslan
   # author: ["Me", "You"] # multiple authors
+
+  DateFormat: "2006-01-02"
 
   defaultTheme: auto
   # disableThemeToggle: true
@@ -52,62 +74,58 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
-  # comments: false
-  images: ["images/papermod-cover.png"]
-
-  profileMode:
-    enabled: false
-    title: PaperMod
-    imageUrl: "#"
-    imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
+  comments: true
+ 
 
   homeInfoParams:
-    Title: "MakerLog-a xoş gəlmisiniz!"
+    Title: "👋 MakerLog bloqumuzda sizi xoş gördük!"
     Content: >
-      👋 Welcome to demo page of Hugo's theme PaperMod!
+        Bu  bloqu hazırlamaqda əsas məqsədim hazırladığım layihələri paylaşmaqdır. 
+        
+        
+        Daim qurub-yaratmaqda olun!
+        
 
-      - **PaperMod**  is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
-
-      - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media .
-
-      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
+        Hörmətlə,
+        Orxan Əmiraslan (@azerimaker)
 
   socialIcons:
     - name: facebook
-      title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/adityatelange"
-    - name: instagram
-      title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/adityatelange"
-    - name: tiktok
-      title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/adityatelange"
-    - name: linkedin
-      title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/adityatelange"
-    - name: github
-      title: View Source on Github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
-    - name: Discord
-      title: Join discord community
-      url: "https://discord.gg/ahpmTvhVmp"
-    - name: X
-      title: Share PaperMod on X/Twitter
-      url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
-    - name: KoFi
-      title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/adityatelange"
+      title: Facebook səhifəmiz
+      url: "https://www.facebook.com/makerspace.az"
 
+    - name: instagram
+      title: İnstagram səhifəmiz
+      url: "https://instagram.com/makerspace.az"
+
+    - name: youtube
+      title: Youtube kanalımız
+      url: "https://www.youtube.com/c/MakerspaceAzerbaijan"
+
+    - name: telegram
+      title: Telegram kanalımız
+      url: "https://t.me/MakerspaceAz"
+      
+    - name: linkedin
+      title: LinkedID səhifəmiz
+      url: "https://www.linkedin.com/company/makerspace-azerbaijan/"
+
+    - name: github
+      title: Github hesabımız
+      url: "https://github.com/azmakerspace/"
+
+  #  - name: Discord
+  #    title: Join discord community
+  #    url: "https://discord.gg/ahpmTvhVmp"
+
+    - name: X
+      title: X/Twitter
+      url: "https://x.com/MakerspaceAZ"
+
+    
   editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/azmakerspace/makerlog/blob/main/content"
+    Text: "Düzəliş təklif edin" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # label:
@@ -121,12 +139,19 @@ params:
   #         SiteVerificationTag: "XYZabc"
 
   assets:
-    disableHLJS: true
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
-  #     apple_touch_icon: "<link / abs url>"
+    disableHLJS: false
+    favicon: "favicon/favicon.ico"
+    favicon16x16: "favicon/favicon-16x16.png"
+    favicon32x32: "favicon/favicon-32x32.png"
+    apple_touch_icon: "favicon/apple-touch-icon.png"
   #     safari_pinned_tab: "<link / abs url>"
+
+
+  label:
+    text: ""
+    icon: branding/msa-logo.png
+    iconHeight: 30
+
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
