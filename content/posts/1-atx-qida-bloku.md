@@ -9,7 +9,7 @@ categories: ["hacking", "lab"]
 series: ["Lab alətləri"]
 ShowToc: true
 TocOpen: true
-draft : true
+draft : false
 ---
 
 # Giriş
