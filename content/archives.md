@@ -1,6 +1,8 @@
 ---
 title: "Paylaşımlar"
 layout: "archives"
-# url: "/archives"
+url: "/archives/"
 summary: "archives"
+tags: ["arxiv"]
+
 ---

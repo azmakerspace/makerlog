@@ -1,6 +1,6 @@
 baseURL: https://azmakerspace.github.io/
 languageCode: en-Us
-title: MakerLog {STEAM & Elektronika Bloqu}
+title: MakerLog{STEAM & Elektronika Bloqu}
 theme: PaperMod
 
 copyright: "© [Makerspace Azərbaycan MMC](https://makerspace.az/)"
@@ -11,7 +11,6 @@ params:
     email: info@makerspace.az
     phone: +994 55 5949014
   subtitle: Makerspace Azerbaijan LLC
-
 
 
 # hugo new --kind post /posts/nr-name.md
@@ -29,20 +28,21 @@ minify:
 
 menu:
       main:
-        - name: Ana səhifə
-          url: #
-          weight: 5
         - name: Arxiv
-          url: archives
-          weight: 5
-        - name: Axtarış
+          url: archives/
+          weight: 10
+        - name: Axtar
           url: search/
-          weight: 5
+          weight: 20
+        - name: Kateqoriyalar
+          url: categories/
+          weight: 30
         - name: Teqlər
           url: tags/
-          weight: 5
+          weight: 40
         - name: Makerspace.az
           url: https://makerspace.az/
+          weight: 50
       
 
 outputs:
@@ -84,10 +84,10 @@ params:
         
         
         Daim qurub-yaratmaqda olun!
-        
+
 
         Hörmətlə,
-        Orxan Əmiraslan (@azerimaker)
+        Orxan Əmiraslan
 
   socialIcons:
     - name: facebook
@@ -110,17 +110,24 @@ params:
       title: LinkedID səhifəmiz
       url: "https://www.linkedin.com/company/makerspace-azerbaijan/"
 
-    - name: github
-      title: Github hesabımız
-      url: "https://github.com/azmakerspace/"
+    - name: X
+      title: X/Twitter
+      url: "https://x.com/MakerspaceAZ"
+    
+    - name: kofi
+      title: Kofe.al dəstək olun
+      url: "https://kofe.al/azerimaker"
+
+ #   - name: github
+ #     title: Github hesabımız
+ #     url: "https://github.com/azmakerspace/"
+
 
   #  - name: Discord
   #    title: Join discord community
   #    url: "https://discord.gg/ahpmTvhVmp"
 
-    - name: X
-      title: X/Twitter
-      url: "https://x.com/MakerspaceAZ"
+    
 
     
   editPost:
