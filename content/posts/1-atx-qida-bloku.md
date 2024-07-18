@@ -26,7 +26,7 @@ draft : false
 
 # Giriş
 
-Salam, əziz MakerLog oxucusu. Bu mənim ilk postumdur. Ümid edirəm, bütün oxuculara maraqlı olacaq. İrad və təklifləriniz varsa, zəhmət olmasa şərh bölməsinə qeyd edin.
+Salam, əziz MakerBlog oxucusu. Bu mənim ilk postumdur. Ümid edirəm, bütün oxuculara maraqlı olacaq. İrad və təklifləriniz varsa, zəhmət olmasa şərh bölməsinə qeyd edin.
 Başlayaq!
 
 Bu proyektdə kompüter [qida blokundan](https://az.wikipedia.org/wiki/Qida_bloku) istifadə edərək  **+12, +5, +3.3, -5 və -12V** çıxış gərginlikləri olan stolüstü qida bloku hazırlayacam. İlk öncə bildirim ki, internetdə Azərbaycan dilində məlumatın azlığından bəzi texniki terminlərin adını  mötərizə içərisində ingiliscə görəcəksiniz. Bu terminlərdən istifadə edib daha ətraflı məlumatlar axtarıb,  tapa bilərsiniz.

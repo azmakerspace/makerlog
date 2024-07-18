@@ -1,6 +1,7 @@
-baseURL: https://azmakerspace.github.io/
+baseURL: https://blog.makerspace.az/
+#baseURL: https://azmakerspace.github.io/
 languageCode: en-Us
-title: MakerLog{STEAM & Elektronika Bloqu}
+title: MakerBlog {S.T.E.A.M}
 theme: PaperMod
 
 copyright: "© [Makerspace Azərbaycan MMC](https://makerspace.az/)"
@@ -53,8 +54,8 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: MakerLog
-  description: "{STEAM & Elektronika Bloqu}"
+  title: MakerBlog
+  description: "{S.T.E.A.M}"
   keywords: [Makerspace, Azərbaycan, Elektronika, STEAM, STEM]
   author: Orxan Əmiraslan
   # author: ["Me", "You"] # multiple authors
@@ -78,16 +79,17 @@ params:
  
 
   homeInfoParams:
-    Title: "👋 MakerLog bloqumuzda sizi xoş gördük!"
+    Title: "👋 Salam, dostlar!"
     Content: >
-        Bu  bloqu hazırlamaqda əsas məqsədim hazırladığım layihələri paylaşmaqdır. 
-        
-        
+        Bu  bloqu hazırlamaqda əsas məqsədimiz indiyədək hazırladığımız 
+        və sizdən gələn maraqlı layihələri paylaşmaqdır. 
         Daim qurub-yaratmaqda olun!
-
-
-        Hörmətlə,
-        Orxan Əmiraslan
+        <br />
+        <br />
+        Hörmətlə, 
+        <br />
+        [Orxan Əmiraslan](https://linktr.ee/azerimaker) və [Makerspace.az](https://linktr.ee/makerspaceAZ) komandası.
+        <br />
 
   socialIcons:
     - name: facebook
@@ -115,7 +117,7 @@ params:
       url: "https://x.com/MakerspaceAZ"
     
     - name: kofi
-      title: Kofe.al dəstək olun
+      title: Kofe.alaraq dəstək olun
       url: "https://kofe.al/azerimaker"
 
  #   - name: github
