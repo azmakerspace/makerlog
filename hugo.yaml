@@ -73,7 +73,9 @@ params:
 
   DateFormat: "2006-01-02"
 
-  defaultTheme: auto
+  defaultTheme: dark
+  # defaultTheme: auto 
+  
   # disableThemeToggle: true
   ShowShareButtons: true
   ShowReadingTime: true
