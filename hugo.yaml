@@ -75,7 +75,7 @@ params:
 
   defaultTheme: dark
   # defaultTheme: auto 
-  
+
   # disableThemeToggle: true
   ShowShareButtons: true
   ShowReadingTime: true
@@ -101,7 +101,7 @@ params:
         <br />
         Hörmətlə, 
         <br />
-        [Orxan Əmiraslan](https://linktr.ee/azerimaker) və [Makerspace.az](https://linktr.ee/makerspaceAZ) komandası.
+        [Orxan Əmiraslan](https://linktr.ee/azerimaker) və [Makerspace Azərbaycan](https://linktr.ee/makerspaceAZ) komandası.
         <br />
 
   socialIcons:
