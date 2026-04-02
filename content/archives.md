@@ -2,7 +2,6 @@
 title: "Paylaşımlar"
 layout: "archives"
 url: "/archives/"
-summary: "archives"
-tags: ["arxiv"]
+summary: "Bütün paylaşımların arxiv siyahısı."
 
 ---

@@ -1,0 +1,30 @@
+name: Hugo CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "latest"
+          extended: true
+
+      - name: Build site
+        run: hugo --minify --gc
+
+      - name: Check broken links in generated HTML
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install linkchecker
+          linkchecker --check-extern --no-warnings --ignore-url '^mailto:' public/index.html

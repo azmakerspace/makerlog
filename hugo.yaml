@@ -1,18 +1,12 @@
-baseURL: https://blog.makerspace.az/
-#baseURL: https://azmakerspace.github.io/
-languageCode: en-Us
-title: MakerBlog {S.T.E.A.M}
+baseURL: https://makerspace.az/
+
+languageCode: az-AZ
+defaultContentLanguage: az
+title: MakerSpace Azərbaycan
 theme: PaperMod
 
 copyright: "© [Makerspace Azərbaycan MMC](https://makerspace.az/)"
 paginate: 5
-
-params:
-  contact:
-    email: info@makerspace.az
-    phone: +994 55 5949014
-  subtitle: Makerspace Azerbaijan LLC
-
 
 # hugo new --kind post /posts/nr-name.md
 
@@ -28,23 +22,36 @@ minify:
 
 
 menu:
-      main:
-        - name: Arxiv
-          url: archives/
-          weight: 10
-        - name: Axtar
-          url: search/
-          weight: 20
-        - name: Kateqoriyalar
-          url: categories/
-          weight: 30
-        - name: Teqlər
-          url: tags/
-          weight: 40
-        - name: Makerspace.az
-          url: https://makerspace.az/
-          weight: 50
-      
+  main:
+    - name: Arxiv
+      url: archives/
+      weight: 10
+    - name: Axtar
+      url: search/
+      weight: 20
+    - name: Kateqoriyalar
+      url: categories/
+      weight: 30
+    - name: Teqlər
+      url: tags/
+      weight: 40
+    - name: MakerStore
+      url: https://makerstore.az/
+      weight: 50
+    - name: MakerPrint
+      url: https://3dprinter.az/
+      weight: 60
+    - name: SteamSpace
+      url: https://steamspace.az/
+      weight: 70
+    
+
+taxonomies:
+  tag: tags
+  category: categories
+
+permalinks:
+  posts: /posts/:slugorfilename/
 
 outputs:
   home:
@@ -53,8 +60,12 @@ outputs:
     - JSON
 
 params:
+  contact:
+    email: info@makerspace.az
+    phone: +994 55 5949014
+  subtitle: Makerspace Azərbaycan MMC
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: MakerBlog
+  title: MakerSpace Azərbaycan - STEAM & Elektronika Bloqu
   description: "{S.T.E.A.M}"
   keywords: [Makerspace, Azərbaycan, Elektronika, STEAM, STEM]
   author: Orxan Əmiraslan
@@ -101,11 +112,11 @@ params:
       url: "https://instagram.com/makerspace.az"
 
     - name: youtube
-      title: Youtube kanalımız
+      title: Youtube
       url: "https://www.youtube.com/c/MakerspaceAzerbaijan"
 
     - name: telegram
-      title: Telegram kanalımız
+      title: Telegram
       url: "https://t.me/MakerspaceAz"
       
     - name: linkedin
@@ -149,17 +160,11 @@ params:
 
   assets:
     disableHLJS: false
-    favicon: "favicon/favicon.ico"
-    favicon16x16: "favicon/favicon-16x16.png"
-    favicon32x32: "favicon/favicon-32x32.png"
-    apple_touch_icon: "favicon/apple-touch-icon.png"
   #     safari_pinned_tab: "<link / abs url>"
 
 
   label:
-    text: ""
-    icon: branding/msa-logo.png
-    iconHeight: 30
+    text: MakerSpace Azərbaycan
 
 
   # cover:

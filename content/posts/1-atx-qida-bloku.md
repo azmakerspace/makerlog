@@ -2,7 +2,7 @@
 author: ["Orxan Əmiraslan"]
 title: 'ATX Kompüter qida blokundan stolüstü qida blokunun hazırlanması'
 date: 2014-09-19
-description: "ATX qida lokunda stolüstü qida blokunu hazırlanması."
+description: "ATX qida blokundan stolüstü qida blokunun hazırlanması."
 summary: "Bu proyektdə kompüter qida blokundan istifadə edərək  +12, +5, +3.3, -5 və -12 V çıxış gərginlikləri olan stolüstü qida bloku hazırlayacam."
 tags: ["ATX", "hacking", "qida-bloku", "elektronika"]
 categories: ["hacking", "lab", "layihələr"]
@@ -11,15 +11,17 @@ ShowToc: true
 TocOpen: true
 
 cover:
-    image: "images/1-atx/1-1-atx.jpg" 
-    alt: "ATX qida bloku" # alt text
-    caption: "ATX Qida Bloku" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: false # only hide on current single page
+    image: "https://live.staticflickr.com/5598/15555688775_2765583ae2_b_d.jpg"
+    alt: "ATX qida bloku"
+    caption: "ATX Qida Bloku"
+    relative: false
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
     responsiveImages: true
     linkFullImages: true
 
-draft : false
+draft: false
 
 
 ---
@@ -155,10 +157,9 @@ Lehimləmədən öncə yığılan izəlyatorları kabellərə uyğun ölçüdə 
 ![Kabel əlaqələri 1](https://live.staticflickr.com/5597/14935507623_da264f7362_c_d.jpg "Kabel əlaqələri 2")
 ![Kabel əlaqələri 2](https://live.staticflickr.com/3950/15370047180_c1e9f48f79_b_d.jpg "Kabel əlaqələri 3")
 ![Kabel əlaqələri 3](https://live.staticflickr.com/3930/15555687715_86972cc59f_b_d.jpg "Kabel əlaqələri 4")
-![Kabel əlaqələri 4]( "GND")
 ![Kabel əlaqələri 5](https://live.staticflickr.com/3934/15369669907_269fa1e9dd_b_d.jpg "Kabel əlaqələri 5")
 
-Aşağı gərginlikli çıxış kanallarında cərəyan istifadəsi yüksək olduqda gərginlik düşküsü daha çox olur, bunu aradan qaldırmaq üçün qida bloklarında əks-əlaqə (sense wire – feedback loop) kabelləri olur və bunun vasitəsilə kabellərdə olan gərginlik düşgüsü kompensasiya olunur. Məndə olan qida blokunda +3.3V Sense kabeli olduğundan onu birbaşa +3.3V kanaləna qoşuruq.Aşağı gərginlikli çıxış kanallarında cərəyan istifadəsi yüksək olduqda gərginlik düşküsü daha çox olur, bunu aradan qaldırmaq üçün qida bloklarında əks-əlaqə (sense wire – feedback loop) kabelləri olur və bunun vasitəsilə kabellərdə olan gərginlik düşgüsü kompensasiya olunur. Məndə olan qida blokunda +3.3V Sense kabeli olduğundan onu birbaşa +3.3V kanalına qoşuruq.
+Aşağı gərginlikli çıxış kanallarında cərəyan istifadəsi yüksək olduqda gərginlik düşküsü daha çox olur, bunu aradan qaldırmaq üçün qida bloklarında əks-əlaqə (sense wire – feedback loop) kabelləri olur və bunun vasitəsilə kabellərdə olan gərginlik düşgüsü kompensasiya olunur. Məndə olan qida blokunda +3.3V Sense kabeli olduğundan onu birbaşa +3.3V kanalına qoşuruq.
 
 
 ![Sense xətti](https://live.staticflickr.com/3932/15369061969_8cac4755cf_b_d.jpg "Sense xətti")
