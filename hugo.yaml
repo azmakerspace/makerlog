@@ -23,7 +23,7 @@ minify:
 
 menu:
   main:
-    - name: Arxiv
+    - name: Blog
       url: archives/
       weight: 10
     - name: Axtar
@@ -35,15 +35,21 @@ menu:
     - name: Teqlər
       url: tags/
       weight: 40
+    - name: Haqqımızda
+      url: about
+      weight: 50
+    - name: Əlaqə
+      url: contact
+      weight: 60
     - name: MakerStore
       url: https://makerstore.az/
-      weight: 50
-    - name: MakerPrint
-      url: https://3dprinter.az/
-      weight: 60
-    - name: SteamSpace
-      url: https://steamspace.az/
       weight: 70
+#    - name: MakerPrint
+#      url: https://3dprinter.az/
+#      weight: 60
+#    - name: SteamSpace
+#      url: https://steamspace.az/
+#      weight: 70
     
 
 taxonomies:
